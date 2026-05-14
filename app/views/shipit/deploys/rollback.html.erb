@@ -5,7 +5,8 @@
     <h2>Are you sure it's safe to rollback?</h2>
     <ul>
       <li>Does the code you want to rollback contain migrations?</li>
-      <li>If so, is the old code compatible with the new schema?</li>
+      <li>If so, is the old code compatible with the new schema? If possible, leave the schema changes if they're compatible with the old code as a rollback might be a db-heavy operation.</li>
+      <li>If there are migrations but the old code isn't compatible with the new schema, they must be rolled back before rolling back the code.</li>
     </ul>
   </section>
 
