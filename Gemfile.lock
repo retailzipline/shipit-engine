@@ -27,7 +27,6 @@ PATH
       sprockets (< 4)
       sprockets-rails (>= 2.3.2)
       state_machines-activerecord (~> 0.8.0)
-      validate_url (~> 1.0.0)
 
 GEM
   remote: https://rubygems.org/
@@ -407,9 +406,6 @@ GEM
     unicode-display_width (2.6.0)
     uri (1.0.3)
     useragent (0.16.11)
-    validate_url (1.0.15)
-      activemodel (>= 3.0.0)
-      public_suffix
     version_gem (1.1.15)
     virtus (1.0.5)
       axiom-types (~> 0.1)
